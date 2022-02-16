@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
 body {
     color: rgb(20, 33, 58);
     font-family: 'Times New Roman', Times, serif;
@@ -25,12 +31,14 @@ header a {
 
 /* add margin maybe */
 header nav {
+    padding: 10px;
     float: right;
     margin: 0;
 }
 
 header nav ul li {
     display: inline;
+    padding: 30px;
 }
 
 header nav ul li a {
