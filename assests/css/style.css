@@ -18,7 +18,7 @@ header {
 header h1 {
     font-weight: bold;
     font-size: 70px;
-    color: rgb(35, 153, 155);
+    color: rgb(52, 230, 233);
     margin: 0;
     display: inline;
 }
@@ -31,7 +31,7 @@ header a {
 
 /* add margin maybe */
 header nav {
-    padding: 10px;
+    padding: 15px;
     float: right;
     margin: 0;
 }
@@ -45,4 +45,22 @@ header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
     font-size: 30px;
+}
+
+/* HERO STARTS HERE */
+.hero {
+    background-image: url("../images/network-g8cf3bdbd5_1920.jpg");
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+}
+
+.hero h2 {
+    float: right;
+    margin-top: 350px;
+    margin-right: 50px;
+    padding: 20px;
+    font-size: 40px;
+    color: rgb(52, 230, 233);
+    background-color: rgb(20, 33, 58);
 }
