@@ -74,16 +74,17 @@ header nav ul li a {
 /* ABOUT ME START */
 .about {
     display: flex;
-
 }
 .about h2 {
-    margin: 20px 10px 20px 10px;
-    font-size: 40px;
-    text-decoration: underline;
-    
+    margin: 20px 30px 20px 30px;
+    padding: 60px 40px 60px 140px;
+    font-size: 50px;
+    border-right: 4px solid rgb(14, 24, 41);
+    text-align: center;
 }
 
 .about p {
+    margin: 40px;
     font-size: 23px;
 }
 /* ABOUT ME END */
@@ -95,8 +96,17 @@ header nav ul li a {
 }
 
 .work h2 {
-    font-size: 40px;
-    text-decoration: underline;
+    margin: 20px 30px 20px 30px;
+    padding: 60px 40px 60px 150px;
+    font-size: 50px;
+    border-right: 4px solid rgb(14, 24, 41);
+    text-align: center;
+}
+
+.box {
+    border: 5px solid rgb(35, 153, 155);
+    background-color: rgb(35, 153, 155);
+    text-align: center;
 }
 /* MY WORK END */
 
@@ -107,21 +117,17 @@ header nav ul li a {
 }
 
 .contact h2 {
-    font-size: 40px;
-    text-decoration: underline;
+    margin: 20px 30px 20px 30px;
+    padding: 60px 40px 60px 20px;
+    font-size: 50px;
+    border-right: 4px solid rgb(14, 24, 41);
+    text-align: center;
 }
 
 .contact ul {
+    display: flex;
     font-size: 23px;
     text-decoration: underline;
-    display: flex;
-    justify-content: space-around;
+    list-style: none;
 }
 /* CONTACT ME END */
-
-
-/* RESUME */
-.resume h2{
-    font-size: 40px;
-    text-decoration: underline;
-}
