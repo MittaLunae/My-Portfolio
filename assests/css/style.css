@@ -5,14 +5,17 @@
 }
 
 body {
-    color: rgb(20, 33, 58);
+    color: rgb(14, 24, 41);
     font-family: 'Times New Roman', Times, serif;
     background-color: rgb(135, 181, 196);
 }
 
 header {
     padding: 25px;
-    background-color: rgb(20, 33, 58);
+    background-color: rgb(14, 24, 41);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 header h1 {
@@ -20,7 +23,6 @@ header h1 {
     font-size: 70px;
     color: rgb(52, 230, 233);
     margin: 0;
-    display: inline;
 }
 
 header a {
@@ -29,7 +31,6 @@ header a {
     text-decoration-color: rgb(35, 153, 155);
 }
 
-/* add margin maybe */
 header nav {
     padding: 15px;
     float: right;
@@ -47,7 +48,7 @@ header nav ul li a {
     font-size: 30px;
 }
 
-/* HERO STARTS HERE */
+/* HERO START */
 .hero {
     background-image: url("../images/network-g8cf3bdbd5_1920.jpg");
     height: 500px;
@@ -57,10 +58,70 @@ header nav ul li a {
 
 .hero h2 {
     float: right;
+    border: 5px;
+    border-style: solid;
+    border-color: rgb(135, 181, 196);
     margin-top: 350px;
     margin-right: 50px;
     padding: 20px;
     font-size: 40px;
     color: rgb(52, 230, 233);
-    background-color: rgb(20, 33, 58);
+    background-color: rgb(14, 24, 41);
+}
+/* HERO END*/
+
+
+/* ABOUT ME START */
+.about {
+    display: flex;
+
+}
+.about h2 {
+    margin: 20px 10px 20px 10px;
+    font-size: 40px;
+    text-decoration: underline;
+    
+}
+
+.about p {
+    font-size: 23px;
+}
+/* ABOUT ME END */
+
+
+/* MY WORK START */
+.work {
+    display: flex;
+}
+
+.work h2 {
+    font-size: 40px;
+    text-decoration: underline;
+}
+/* MY WORK END */
+
+
+/* CONTACT ME START */
+.contact {
+    display: flex;
+}
+
+.contact h2 {
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+.contact ul {
+    font-size: 23px;
+    text-decoration: underline;
+    display: flex;
+    justify-content: space-around;
+}
+/* CONTACT ME END */
+
+
+/* RESUME */
+.resume h2{
+    font-size: 40px;
+    text-decoration: underline;
 }
