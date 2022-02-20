@@ -103,7 +103,15 @@ header nav ul li a {
     text-align: center;
 }
 
-.box {
+.box-one {
+    margin: 20px;
+    border: 5px solid rgb(35, 153, 155);
+    background-color: rgb(35, 153, 155);
+    text-align: center;
+}
+
+.box-two {
+    margin: 20px;
     border: 5px solid rgb(35, 153, 155);
     background-color: rgb(35, 153, 155);
     text-align: center;
@@ -126,8 +134,17 @@ header nav ul li a {
 
 .contact ul {
     display: flex;
+    align-items: center;
     font-size: 23px;
     text-decoration: underline;
     list-style: none;
+    text-align: center;
+}
+
+.contact ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px;
 }
 /* CONTACT ME END */
